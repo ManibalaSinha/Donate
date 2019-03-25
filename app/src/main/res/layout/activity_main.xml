@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:text = "Application Configuration" android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="41dp"
+        android:text="Client ID" />
+
+    <EditText
+        android:id="@+id/clientId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="123dp"
+        android:text="Client Password" />
+
+    <EditText
+        android:id="@+id/clientPas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        android:text="Scope" />
+
+    <EditText
+        android:id="@+id/scope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="api" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:text="Organization ID" />
+
+    <EditText
+        android:id="@+id/orId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="onClick"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-28dp"
+        android:layout_marginBottom="62dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:text="Configure" />
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donate">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="66dp"
+        android:text="Donate to a campaign"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-41dp"
+        android:layout_marginTop="115dp"
+        android:text="Campaign1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="168dp"
+        android:text="Campaign2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="225dp"
+        android:text="Campaign3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginBottom="241dp"
+        android:text="Campaign4" />
+
+</RelativeLayout>
